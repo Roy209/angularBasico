@@ -1,0 +1,17 @@
+<h1> {{nombre}} - {{edad}} </h1>
+<dl>
+    <td>Nombre</td>
+    <dd> {{nombre}}</dd>
+
+    <td>Edad</td>
+    <dd> {{edad}}</dd>
+
+    <td>Numero</td>
+    <dd> {{ obtenerNombre() }}</dd>
+
+    <td>Nombre Capitralizado</td>
+    <dd> {{ nombreCaptalizado }}</dd>
+
+    <button (click)="cambiarNombre()" >Cambiar Nombre</button>
+    <button (click)="cambiarEdad()" >Cambiar Edad</button>
+</dl>
